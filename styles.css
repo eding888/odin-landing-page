@@ -1,10 +1,11 @@
-/* HEADER STYLES */
 body{
     display: flex;
     flex-direction: column;
     font-family: 'Century Gothic', sans-serif;
     font-weight:200;
 }
+/* HEADER STYLES */
+
 
 .header{
     display: flex;
@@ -44,11 +45,7 @@ body{
     width: 24px;
     height: 24px;
 }
-.righthead > a{
-    text-decoration: none;
-    color: black;
-    font-weight:200
-}
+
 /* HEADER STYLES */
 
 /* GENERAL */
@@ -59,33 +56,84 @@ body{
     justify-content: center;
     padding: 10px;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight:200
+}
 /* GENERAL */
 
 /* SECTION 1 */
 .sec1{
+    flex-wrap: wrap;
     background-color: #DDD0C8;
     gap: 40px;
 
 }
 
 #smoke-detector{
+    filter: drop-shadow(0px 0px 10px tan);
     width: 300px; 
     height: 300px;
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 10px;
 }
 #sellbutton{
-    width: 100px;
-    height: 30px;
+    filter: drop-shadow(3px 3px 2px black);
+    display: block;
+    width: 150px;
+    height: 50px;
     border-radius: 4px;
     justify-content: center;
     margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* SECTION 1 */
 
+/* SECTION 2 */
 .sec2{
     flex-direction: column;
+    gap: 30px;
     background-color: #eddfd5;
+    padding-bottom: 60px;
+}
+.imglist{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
 }
 
+.imglistimage{
+    width: 150px;
+    height: 150px;
+    filter: drop-shadow(2px 2px 0px black);
+    border: white solid 10px;
+    outline: black;    
+    border-radius: 15px;
+}
+
+.imglistitem{
+    
+    display: flex;
+    flex-direction: column;
+    flex-basis: 150px;
+
+}
+.imglistitem > .imglistcaption{
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+
+
+
+/* SECTION 2 */
 #logoquote{
     font-size: 10px;
     font-weight: 100;
