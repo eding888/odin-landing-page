@@ -55,15 +55,17 @@ body{
 .content{
     padding-left: 10%;
     padding-right: 10%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }
 /* GENERAL */
 
 /* SECTION 1 */
 .sec1{
-    display: flex;
-    justify-content: center;
     background-color: #DDD0C8;
     gap: 40px;
+
 }
 
 #smoke-detector{
@@ -79,7 +81,10 @@ body{
 }
 /* SECTION 1 */
 
-
+.sec2{
+    flex-direction: column;
+    background-color: #eddfd5;
+}
 
 #logoquote{
     font-size: 10px;
