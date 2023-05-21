@@ -15,8 +15,6 @@ body{
     gap: 10px;
     background-color: #DDD0C8;
 }
-
-
 .lefthead{
     display: flex;
     flex-basis: 300px;
@@ -31,11 +29,6 @@ body{
     margin-right: auto;
 }
 
-.logo{
-    gap: 5px;
-
-}
-
 .righthead{
     display: flex;
     margin-left: auto;
@@ -43,15 +36,29 @@ body{
     gap: 8px;
 
 }
+.logo{
+    gap: 5px;
+
+}
+#nukeicon{
+    width: 24px;
+    height: 24px;
+}
+.righthead > a{
+    text-decoration: none;
+    color: black;
+    font-weight:200
+}
+
+
 .sec1{
     display: flex;
     justify-content: center;
     background-color: #DDD0C8;
     gap: 40px;
 }
-#title{
-    flex-wrap: wrap;
-}
+
+
 #smoke-detector{
     width: 300px; 
     height: 300px;
@@ -60,15 +67,10 @@ body{
     padding-left: 10%;
     padding-right: 10%;
 }
-a{
-    text-decoration: none;
-    color: black;
-    font-weight:200
-}
-#nukeicon{
-    width: 24px;
-    height: 24px;
-}
+
+
+
+
 
 #logoquote{
     font-size: 10px;
