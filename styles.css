@@ -54,7 +54,7 @@ body{
     padding-right: 10%;
     display: flex;
     justify-content: center;
-    padding: 15px;
+    padding: 20px;
 }
 
 a{
@@ -86,7 +86,6 @@ a{
     width: 150px;
     height: 50px;
     border-radius: 4px;
-    justify-content: center;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -127,11 +126,20 @@ a{
     text-align: center;
     margin-top: 25px;
 }
-
-
-
-
 /* SECTION 2 */
+
+/* SECTION 3 */
+
+.sec3{
+    flex-direction: column;
+
+    background-color: #DDD0C8;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
 #logoquote{
     font-size: 10px;
     font-weight: 100;
