@@ -54,7 +54,7 @@ body{
     padding-right: 10%;
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 15px;
 }
 
 a{
@@ -98,7 +98,7 @@ a{
     flex-direction: column;
     gap: 30px;
     background-color: #eddfd5;
-    padding-bottom: 60px;
+    padding-bottom: 25px;
 }
 .imglist{
     display: flex;
@@ -124,9 +124,7 @@ a{
 
 }
 .imglistitem > .imglistcaption{
-    color: white;
     text-align: center;
-    font-weight: 600;
     margin-top: 25px;
 }
 
