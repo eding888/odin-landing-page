@@ -1,4 +1,4 @@
-
+/* HEADER STYLES */
 body{
     display: flex;
     flex-direction: column;
@@ -49,8 +49,16 @@ body{
     color: black;
     font-weight:200
 }
+/* HEADER STYLES */
 
+/* GENERAL */
+.content{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+/* GENERAL */
 
+/* SECTION 1 */
 .sec1{
     display: flex;
     justify-content: center;
@@ -58,17 +66,18 @@ body{
     gap: 40px;
 }
 
-
 #smoke-detector{
     width: 300px; 
     height: 300px;
 }
-.content{
-    padding-left: 10%;
-    padding-right: 10%;
+#sellbutton{
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    justify-content: center;
+    margin-top: 30px;
 }
-
-
+/* SECTION 1 */
 
 
 
