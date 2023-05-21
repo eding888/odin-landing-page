@@ -1,0 +1,77 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Century Gothic', sans-serif;
+    font-weight:200;
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    flex-basis: 50px;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: #DDD0C8;
+}
+
+
+.lefthead{
+    display: flex;
+    flex-basis: 300px;
+    flex-wrap: wrap;
+    font-family: 'Copperplate', sans-serif;
+    font-size: 24px;
+    font-weight:400;
+    justify-content: flex-end;
+    flex-shrink: 0;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    gap: 5px;
+
+}
+
+.righthead{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 8px;
+
+}
+.sec1{
+    display: flex;
+    justify-content: center;
+    background-color: #DDD0C8;
+    gap: 40px;
+}
+#title{
+    flex-wrap: wrap;
+}
+#smoke-detector{
+    width: 300px; 
+    height: 300px;
+}
+.content{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight:200
+}
+#nukeicon{
+    width: 24px;
+    height: 24px;
+}
+
+#logoquote{
+    font-size: 10px;
+    font-weight: 100;
+    
+}
