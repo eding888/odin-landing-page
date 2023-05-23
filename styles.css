@@ -25,6 +25,13 @@ button{
     display: flex;
     justify-content: space-between;
 }
+
+.padded{
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
 /* GENERAL */
 
 body{
@@ -35,9 +42,7 @@ body{
 }
 /* HEADER STYLES */
 
-
 .header{
-    
     flex-wrap: wrap;
     padding: 10px;
     flex-basis: 50px;
@@ -142,21 +147,23 @@ body{
 
 .sec3{
     flex-direction: column;
-
     background-color: #DDD0C8;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 15%;
-    padding-bottom: 15%;
+    
 }
 
 /* SECTION 3 */
 
 /* SECTION 4 */
 .sec4{
+    
     background-color: #eddfd5;
 }
-
+#sec4box{
+    display: flex;
+    flex: auto;
+    justify-content: space-around;
+    background-color: blue;
+}
 /* SECTION 4 */
 
 #logoquote{
