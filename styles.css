@@ -159,10 +159,13 @@ body{
     background-color: #eddfd5;
 }
 #sec4box{
-    display: flex;
+    flex-wrap: wrap;
     flex: auto;
-    justify-content: space-around;
-    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 50px;
+    background-color: #DDD0C8;
+
 }
 /* SECTION 4 */
 
