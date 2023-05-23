@@ -1,7 +1,11 @@
 /* GENERAL */
+ body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Century Gothic', sans-serif;
+    font-weight:200;
+}
 .content{
-    padding-left: 10%;
-    padding-right: 10%;
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -34,12 +38,7 @@ button{
 }
 /* GENERAL */
 
-body{
-    display: flex;
-    flex-direction: column;
-    font-family: 'Century Gothic', sans-serif;
-    font-weight:200;
-}
+
 /* HEADER STYLES */
 
 .header{
@@ -169,6 +168,12 @@ body{
 
 }
 /* SECTION 4 */
+
+/* FOOTER */
+.footer{
+    background-color: #DDD0C8;
+}
+/* FOOTER */
 
 #logoquote{
     font-size: 10px;
